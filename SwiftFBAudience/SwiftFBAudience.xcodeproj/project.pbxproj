@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18412D9E8F9325B13F1D7DBD /* Pods_SwiftFBAudience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617AE5C51B19C1967317F851 /* Pods_SwiftFBAudience.framework */; };
+		19749CBE2044828100573D3E /* SwiftFBAudience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19749CB42044828000573D3E /* SwiftFBAudience.framework */; };
+		19749CC32044828100573D3E /* SwiftFBAudienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19749CC22044828100573D3E /* SwiftFBAudienceTests.swift */; };
+		19749CC52044828100573D3E /* SwiftFBAudience.h in Headers */ = {isa = PBXBuildFile; fileRef = 19749CB72044828000573D3E /* SwiftFBAudience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19749CCF2044829C00573D3E /* SwiftFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19749CCE2044829C00573D3E /* SwiftFB.swift */; };
+		19749DF92044D51900573D3E /* SwiftFBSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19749DF82044D51900573D3E /* SwiftFBSubclass.swift */; };
+		40F028C5717874894B506A09 /* Pods_SwiftFBAudienceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DC277D0883C084B904810C /* Pods_SwiftFBAudienceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19749CBF2044828100573D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19749CAB2044828000573D3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19749CB32044828000573D3E;
+			remoteInfo = SwiftFBAudience;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06CE12B79AF631106C9010E7 /* Pods-SwiftFBAudience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFBAudience.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFBAudience/Pods-SwiftFBAudience.debug.xcconfig"; sourceTree = "<group>"; };
+		19749CB42044828000573D3E /* SwiftFBAudience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFBAudience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19749CB72044828000573D3E /* SwiftFBAudience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFBAudience.h; sourceTree = "<group>"; };
+		19749CB82044828000573D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19749CBD2044828100573D3E /* SwiftFBAudienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFBAudienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19749CC22044828100573D3E /* SwiftFBAudienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFBAudienceTests.swift; sourceTree = "<group>"; };
+		19749CC42044828100573D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19749CCE2044829C00573D3E /* SwiftFB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFB.swift; sourceTree = "<group>"; };
+		19749DF82044D51900573D3E /* SwiftFBSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFBSubclass.swift; sourceTree = "<group>"; };
+		617AE5C51B19C1967317F851 /* Pods_SwiftFBAudience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFBAudience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		711C5530D5483DBF13DBBD10 /* Pods-SwiftFBAudienceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFBAudienceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFBAudienceTests/Pods-SwiftFBAudienceTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D3DE96CD64822E9A3E42C4D /* Pods-SwiftFBAudience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFBAudience.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFBAudience/Pods-SwiftFBAudience.release.xcconfig"; sourceTree = "<group>"; };
+		94DC277D0883C084B904810C /* Pods_SwiftFBAudienceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFBAudienceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5BECF4E576698F571453A5 /* Pods-SwiftFBAudienceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFBAudienceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFBAudienceTests/Pods-SwiftFBAudienceTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19749CB02044828000573D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18412D9E8F9325B13F1D7DBD /* Pods_SwiftFBAudience.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19749CBA2044828100573D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19749CBE2044828100573D3E /* SwiftFBAudience.framework in Frameworks */,
+				40F028C5717874894B506A09 /* Pods_SwiftFBAudienceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19749CAA2044828000573D3E = {
+			isa = PBXGroup;
+			children = (
+				19749CB62044828000573D3E /* SwiftFBAudience */,
+				19749CC12044828100573D3E /* SwiftFBAudienceTests */,
+				19749CB52044828000573D3E /* Products */,
+				7D796980268C294F5FCBDCB7 /* Pods */,
+				771D319C66FF834CEDE69B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19749CB52044828000573D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19749CB42044828000573D3E /* SwiftFBAudience.framework */,
+				19749CBD2044828100573D3E /* SwiftFBAudienceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19749CB62044828000573D3E /* SwiftFBAudience */ = {
+			isa = PBXGroup;
+			children = (
+				19749CB72044828000573D3E /* SwiftFBAudience.h */,
+				19749CCE2044829C00573D3E /* SwiftFB.swift */,
+				19749DF82044D51900573D3E /* SwiftFBSubclass.swift */,
+				19749CB82044828000573D3E /* Info.plist */,
+			);
+			path = SwiftFBAudience;
+			sourceTree = "<group>";
+		};
+		19749CC12044828100573D3E /* SwiftFBAudienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				19749CC22044828100573D3E /* SwiftFBAudienceTests.swift */,
+				19749CC42044828100573D3E /* Info.plist */,
+			);
+			path = SwiftFBAudienceTests;
+			sourceTree = "<group>";
+		};
+		771D319C66FF834CEDE69B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				617AE5C51B19C1967317F851 /* Pods_SwiftFBAudience.framework */,
+				94DC277D0883C084B904810C /* Pods_SwiftFBAudienceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D796980268C294F5FCBDCB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06CE12B79AF631106C9010E7 /* Pods-SwiftFBAudience.debug.xcconfig */,
+				7D3DE96CD64822E9A3E42C4D /* Pods-SwiftFBAudience.release.xcconfig */,
+				FB5BECF4E576698F571453A5 /* Pods-SwiftFBAudienceTests.debug.xcconfig */,
+				711C5530D5483DBF13DBBD10 /* Pods-SwiftFBAudienceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19749CB12044828000573D3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19749CC52044828100573D3E /* SwiftFBAudience.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19749CB32044828000573D3E /* SwiftFBAudience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19749CC82044828100573D3E /* Build configuration list for PBXNativeTarget "SwiftFBAudience" */;
+			buildPhases = (
+				B6D355DE113A8B5E7B1712CF /* [CP] Check Pods Manifest.lock */,
+				19749CAF2044828000573D3E /* Sources */,
+				19749CB02044828000573D3E /* Frameworks */,
+				19749CB12044828000573D3E /* Headers */,
+				19749CB22044828000573D3E /* Resources */,
+				3D49A9CBF5AE167A1AA13790 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFBAudience;
+			productName = SwiftFBAudience;
+			productReference = 19749CB42044828000573D3E /* SwiftFBAudience.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19749CBC2044828100573D3E /* SwiftFBAudienceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19749CCB2044828100573D3E /* Build configuration list for PBXNativeTarget "SwiftFBAudienceTests" */;
+			buildPhases = (
+				9F80D32675145F0A712BF8B8 /* [CP] Check Pods Manifest.lock */,
+				19749CB92044828100573D3E /* Sources */,
+				19749CBA2044828100573D3E /* Frameworks */,
+				19749CBB2044828100573D3E /* Resources */,
+				6ABE4090640611E6A10A5432 /* [CP] Embed Pods Frameworks */,
+				E7B1E5E0639D84EBBE1DAEC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19749CC02044828100573D3E /* PBXTargetDependency */,
+			);
+			name = SwiftFBAudienceTests;
+			productName = SwiftFBAudienceTests;
+			productReference = 19749CBD2044828100573D3E /* SwiftFBAudienceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19749CAB2044828000573D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bryan Boyko";
+				TargetAttributes = {
+					19749CB32044828000573D3E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					19749CBC2044828100573D3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19749CAE2044828000573D3E /* Build configuration list for PBXProject "SwiftFBAudience" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19749CAA2044828000573D3E;
+			productRefGroup = 19749CB52044828000573D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19749CB32044828000573D3E /* SwiftFBAudience */,
+				19749CBC2044828100573D3E /* SwiftFBAudienceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19749CB22044828000573D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19749CBB2044828100573D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D49A9CBF5AE167A1AA13790 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftFBAudience/Pods-SwiftFBAudience-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABE4090640611E6A10A5432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftFBAudienceTests/Pods-SwiftFBAudienceTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/mopub-ios-sdk/MoPub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoPub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftFBAudienceTests/Pods-SwiftFBAudienceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F80D32675145F0A712BF8B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftFBAudienceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D355DE113A8B5E7B1712CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftFBAudience-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B1E5E0639D84EBBE1DAEC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftFBAudienceTests/Pods-SwiftFBAudienceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19749CAF2044828000573D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19749CCF2044829C00573D3E /* SwiftFB.swift in Sources */,
+				19749DF92044D51900573D3E /* SwiftFBSubclass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19749CB92044828100573D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19749CC32044828100573D3E /* SwiftFBAudienceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19749CC02044828100573D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19749CB32044828000573D3E /* SwiftFBAudience */;
+			targetProxy = 19749CBF2044828100573D3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19749CC62044828100573D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19749CC72044828100573D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19749CC92044828100573D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CE12B79AF631106C9010E7 /* Pods-SwiftFBAudience.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftFBAudience",
+				);
+				INFOPLIST_FILE = SwiftFBAudience/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAX.SwiftFBAudience;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19749CCA2044828100573D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3DE96CD64822E9A3E42C4D /* Pods-SwiftFBAudience.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftFBAudience",
+				);
+				INFOPLIST_FILE = SwiftFBAudience/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAX.SwiftFBAudience;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19749CCC2044828100573D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5BECF4E576698F571453A5 /* Pods-SwiftFBAudienceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftFBAudienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAX.SwiftFBAudienceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19749CCD2044828100573D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711C5530D5483DBF13DBBD10 /* Pods-SwiftFBAudienceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftFBAudienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAX.SwiftFBAudienceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19749CAE2044828000573D3E /* Build configuration list for PBXProject "SwiftFBAudience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19749CC62044828100573D3E /* Debug */,
+				19749CC72044828100573D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19749CC82044828100573D3E /* Build configuration list for PBXNativeTarget "SwiftFBAudience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19749CC92044828100573D3E /* Debug */,
+				19749CCA2044828100573D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19749CCB2044828100573D3E /* Build configuration list for PBXNativeTarget "SwiftFBAudienceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19749CCC2044828100573D3E /* Debug */,
+				19749CCD2044828100573D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19749CAB2044828000573D3E /* Project object */;
+}

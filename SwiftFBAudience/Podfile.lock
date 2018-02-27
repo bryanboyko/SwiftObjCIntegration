@@ -1,0 +1,25 @@
+PODS:
+  - FBAudienceNetwork (4.27.2)
+  - mopub-ios-sdk (4.18.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.18.0)
+  - mopub-ios-sdk/Avid (4.18.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/Core (4.18.0)
+  - mopub-ios-sdk/Moat (4.18.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/MoPubSDK (4.18.0):
+    - mopub-ios-sdk/Avid
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/Moat
+
+DEPENDENCIES:
+  - FBAudienceNetwork (= 4.27.2)
+  - mopub-ios-sdk (= 4.18.0)
+
+SPEC CHECKSUMS:
+  FBAudienceNetwork: 84fc420e262ae16b30586861fa11dd9c779336a8
+  mopub-ios-sdk: 043a81e7e3ccd2b888fec35880b13e2876c16ff3
+
+PODFILE CHECKSUM: 3df3afe6f08d95e803c424b5e2bac68ca049d687
+
+COCOAPODS: 1.4.0

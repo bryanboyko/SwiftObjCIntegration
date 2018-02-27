@@ -1,0 +1,11 @@
+framework module SwiftFBAudienceManual {
+  umbrella header "SwiftFBAudienceManual.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftFBAudienceManual.Swift {
+    header "SwiftFBAudienceManual-Swift.h"
+    requires objc
+}
